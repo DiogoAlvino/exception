@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #8dc4f4, #49ed4c);
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.titulo {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.botao>a {
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #8dc4f4;
+    border: none;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao>a:hover {
+    background: #8df48f;
+    text-shadow: none;
+}
